@@ -199,7 +199,7 @@ public class PPPayment extends AppCompatActivity implements View.OnClickListener
             String paymentAmount = etPPPayment.getText().toString();
 
             //Creating a paypalpayment
-            PayPalPayment payment = new PayPalPayment(new BigDecimal(String.valueOf(paymentAmount)), "USD", "Bubble Rush Laundry Shop", // when change to RM, get currency error --> change to MYR
+            PayPalPayment payment = new PayPalPayment(new BigDecimal(String.valueOf(paymentAmount)), "MYR", "Bubble Rush Laundry Shop", // when change to RM, get currency error --> change to MYR
                     PayPalPayment.PAYMENT_INTENT_SALE);
 
             //Creating Paypal Payment activity intent
