@@ -122,7 +122,7 @@ public class EWalletActivity extends AppCompatActivity implements View.OnClickLi
             String paymentAmount = etbalance.getText().toString();
 
             //Creating a paypalpayment
-            PayPalPayment payment = new PayPalPayment(new BigDecimal(String.valueOf(paymentAmount)), "USD", "Bubble Rush Laundry Shop", // when change to RM, get currency error
+            PayPalPayment payment = new PayPalPayment(new BigDecimal(String.valueOf(paymentAmount)), "MYR", "Bubble Rush Laundry Shop", // when change to RM, get currency error
                     PayPalPayment.PAYMENT_INTENT_SALE);
 
             //Creating Paypal Payment activity intent
