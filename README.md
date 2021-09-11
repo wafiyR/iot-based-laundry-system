@@ -29,7 +29,7 @@ Upon scanning the QR codes, the Android Mobile Application will ask the users pe
 
 3) Android Mobile App sends signal to ESP32 device:
 
-Android Mobile Application will make comparisons on the retrieved Access Token from Bluetooth scanning process, which it will compare between Access Token from QR code scanning output and Access Token from Bluetooth Low Energy of ESP32. Once the Access Token is authenticated (Access Token from QR codes == Access Token from ESP32), then Android Mobile Application will establish connection with the ESP32 devices via Bluetooth Low Energy and communicate with ESP32 to switch on the LED.
+Android Mobile Application will make comparisons on the retrieved Access Token from Bluetooth scanning process, which it will compare between Access Token from QR code scanning output and Access Token from Bluetooth Low Energy of ESP32. Once the Access Token is authenticated (Access Token from QR codes == Access Token from ESP32), then Android Mobile Application will establish connection with the ESP32 devices via Bluetooth Low Energy and signal ESP32 device via WiFi connection to switch on the LED.
 
 ![esp32-light-up-with-blynk-app-gif](https://user-images.githubusercontent.com/62368837/132645985-eb7d328a-75be-4c9c-990c-88932c26ea1e.gif)
 
