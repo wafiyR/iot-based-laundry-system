@@ -1,6 +1,6 @@
 # final-year-project
 
-Final Year Project for Degree in Bachelor of Computer Science (Software Development) with Honours. This project focuses on developing Android Mobile Application for laundry shop that is integrated with IoT (Internet of Things) using Arduino and ESP32. Basically, IoT Based Laundry System is a demonstration of the users on utilizing the laundry machines (ESP32 devices represents the laundry machines) by making payment via QR code scanning and eWallet payment gateway.
+Final Year Project for Degree in Bachelor of Computer Science (Software Development) with Honours in Universiti Teknikal Malaysia Melaka (UTeM). This project focuses on developing Android Mobile Application for laundry shop that is integrated with IoT (Internet of Things) using Arduino and ESP32. Basically, IoT Based Laundry System is a demonstration of the users on utilizing the laundry machines (ESP32 devices represents the laundry machines) by making payment via QR code scanning and eWallet payment gateway.
 
 The objectives of the system are as follows:
 
