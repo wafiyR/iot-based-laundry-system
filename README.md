@@ -4,9 +4,10 @@ Final Year Project for Degree in Bachelor of Computer Science (Software Developm
 
 The objectives of the system are as follows:
 
-  i) To computerize the payment procedure in laundry services.
-  ii) To assist customers finding the nearest laundry shop with their location.
+ 1) To computerize the payment procedure in laundry services.
+ 2) To assist customers finding the nearest laundry shop with their location.
 
+Modules:
 
 1) Reload E-Wallet via Paypal Sandbox:
 
